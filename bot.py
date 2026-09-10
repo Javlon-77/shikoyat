@@ -366,7 +366,7 @@ async def receive_complaint(
 
     try:
         await bot.send_message(
-            chat_id=8363022038,
+            chat_id=1154742600,
             text=admin_message,
         )
 
