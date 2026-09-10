@@ -21,8 +21,6 @@ from aiogram.fsm.state import State, StatesGroup
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-# Railway / Render Variables ichidan olinadi
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "8363022038"))
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable is not set")
@@ -368,7 +366,7 @@ async def receive_complaint(
 
     try:
         await bot.send_message(
-            chat_id=ADMIN_CHAT_ID,
+            chat_id=8363022038,
             text=admin_message,
         )
 
