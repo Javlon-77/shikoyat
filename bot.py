@@ -1,4 +1,4 @@
-```python
+
 import asyncio
 import logging
 import os
@@ -460,17 +460,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-```
-
-### Railway / Render Variables
-
-Faqat shu ikkitasini qo‘ying:
-
-```text
-BOT_TOKEN = BOTFATHERDAN_OLINGAN_TOKEN
-ADMIN_CHAT_ID = 8363022038
-```
-
-**Hech qanday yangi kategoriya yoki yangi funksiya qo‘shmadim.** Siz yuborgan botning ishlash tartibi saqlanib qoldi; faqat callback tekshiruvlari, `ADMIN_CHAT_ID` Environment Variable va kodning ayrim xavfsiz/ishonchli joylari tartibga keltirildi.
-
-**Muhim:** admin akkaunt **botga kamida bir marta `/start` yuborgan** bo‘lishi kerak, aks holda bot adminning shaxsiy chatiga xabar yubora olmaydi.
