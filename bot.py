@@ -157,7 +157,7 @@ async def receive_complaint(message: Message, state: FSMContext):
         )
 
     try:
-        await bot.send_message(8363022038, admin_message)
+        await bot.send_message(chat_id=8363022038, admin_message)
     except Exception:
         logging.exception("Admin xabarini yuborishda xato")
         await message.answer(
